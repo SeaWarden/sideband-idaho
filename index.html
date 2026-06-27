@@ -1,15 +1,100 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="color-scheme" content="light dark">
-    <link rel="stylesheet" href="css/pico.min.css">
-    <title>Hello world!</title>
-  </head>
-  <body>
-    <main class="container">
-      <h1>Hello world!</h1>
-    </main>
-  </body>
-</html>
+<html lang="en"><head><script src="/_sdk/telemetry_sdk.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Side Band Idaho</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&amp;family=Work+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <style>
+        body { font-family: 'Work Sans', sans-serif; }
+        h1, h2 { font-family: 'Fraunces', serif; }
+    </style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+  <script src="/_sdk/resizing_sdk.js" type="text/javascript"></script>
+ </head>
+ <body data-template-id="__page-root" class="min-h-screen w-full" style="background: rgb(15, 15, 15);">
+  <header class="relative w-full h-[50vh] overflow-hidden flex items-end"><img data-template-id="hero-img" class="canva-image absolute inset-0 w-full h-full object-cover" loading="lazy" src="img/instruments-in-garage.png" alt="Instruments in a garage.">
+   <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+   <div class="relative z-10 p-8 md:p-12 max-w-4xl">
+    <h1 data-template-id="band-name" class="canva-text text-white drop-shadow-lg" style="color: rgb(255, 255, 255); font-weight: 900; font-style: normal; font-size: 32px;">The Side Band</h1>
+    <p data-template-id="band-tagline" class="canva-text mt-2 text-lg text-white/80" style="color: rgba(255, 255, 255, 0.8); font-weight: 400; font-style: normal; font-size: 16px;">Boise's favorite side band — classics, 90s hits, Christian worship &amp; good times</p>
+   </div>
+  </header>
+  <main class="w-full">
+   <section data-template-id="dates-section" class="canva-section py-12 px-6 md:px-12" style="background: rgb(26, 26, 26);">
+    <h2 data-template-id="dates-heading" class="canva-text text-center mb-8" style="color: rgb(245, 197, 66); font-weight: 700; font-style: normal; font-size: 24px;">Upcoming Shows</h2>
+    <div class="max-w-3xl mx-auto space-y-4">
+     <div data-template-id="gig-1" class="canva-card flex items-center gap-4 p-5 rounded-xl" style="background: rgb(38, 38, 38);">
+      <div class="shrink-0 w-16 text-center">
+       <p data-template-id="gig-1-date" class="canva-text font-semibold text-2xl leading-tight" style="color: rgb(245, 197, 66); font-weight: 700; font-style: normal; font-size: 28px;">18</p>
+       <p data-template-id="gig-1-month" class="canva-text text-sm uppercase tracking-wide" style="color: rgb(245, 197, 66); font-weight: 400; font-style: normal; font-size: 12px;">JUL</p>
+      </div>
+      <div class="flex-1">
+       <p data-template-id="gig-1-venue" class="canva-text font-semibold" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">Salt &amp; Light</p>
+       <p data-template-id="gig-1-detail" class="canva-text text-sm" style="color: rgb(163, 163, 163); font-weight: 400; font-style: normal; font-size: 16px;">Eagle, ID · All Ages</p>
+      </div>
+     </div>
+     <div data-template-id="gig-2" class="canva-card flex items-center gap-4 p-5 rounded-xl" style="background: rgb(38, 38, 38);">
+      <div class="shrink-0 w-16 text-center">
+       <p data-template-id="gig-2-date" class="canva-text font-semibold text-2xl leading-tight" style="color: rgb(245, 197, 66); font-weight: 700; font-style: normal; font-size: 28px;">31</p>
+       <p data-template-id="gig-2-month" class="canva-text text-sm uppercase tracking-wide" style="color: rgb(245, 197, 66); font-weight: 400; font-style: normal; font-size: 12px;">JUL</p>
+      </div>
+      <div class="flex-1">
+       <p data-template-id="gig-2-venue" class="canva-text font-semibold" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">Bluffside</p>
+       <p data-template-id="gig-2-detail" class="canva-text text-sm" style="color: rgb(163, 163, 163); font-weight: 400; font-style: normal; font-size: 16px;">Boise, ID · All Ages</p>
+      </div>
+     </div>
+     <div data-template-id="gig-3" class="canva-card flex items-center gap-4 p-5 rounded-xl" style="background: rgb(38, 38, 38);">
+      <div class="shrink-0 w-16 text-center">
+       <p data-template-id="gig-3-date" class="canva-text font-semibold text-2xl leading-tight" style="color: rgb(245, 197, 66); font-weight: 700; font-style: normal; font-size: 28px;">6</p>
+       <p data-template-id="gig-3-month" class="canva-text text-sm uppercase tracking-wide" style="color: rgb(245, 197, 66); font-weight: 400; font-style: normal; font-size: 12px;">AUG</p>
+      </div>
+      <div class="flex-1">
+       <p data-template-id="gig-3-venue" class="canva-text font-semibold" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">Dude Dewalt</p>
+       <p data-template-id="gig-3-detail" class="canva-text text-sm" style="color: rgb(163, 163, 163); font-weight: 400; font-style: normal; font-size: 16px;">Emmett, ID · No Cover</p>
+      </div>
+     </div>
+     <div data-template-id="gig-4" class="canva-card flex items-center gap-4 p-5 rounded-xl" style="background: rgb(38, 38, 38);">
+      <div class="shrink-0 w-16 text-center">
+       <p data-template-id="gig-4-date" class="canva-text font-semibold text-2xl leading-tight" style="color: rgb(245, 197, 66); font-weight: 700; font-style: normal; font-size: 28px;">8</p>
+       <p data-template-id="gig-4-month" class="canva-text text-sm uppercase tracking-wide" style="color: rgb(245, 197, 66); font-weight: 400; font-style: normal; font-size: 12px;">AUG</p>
+      </div>
+      <div class="flex-1">
+       <p data-template-id="gig-4-venue" class="canva-text font-semibold" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">HOA Party</p>
+       <p data-template-id="gig-4-detail" class="canva-text text-sm" style="color: rgb(163, 163, 163); font-weight: 400; font-style: normal; font-size: 16px;">Boise, ID · Private</p>
+      </div>
+     </div>
+     <div data-template-id="gig-5" class="canva-card flex items-center gap-4 p-5 rounded-xl" style="background: rgb(38, 38, 38);">
+      <div class="shrink-0 w-16 text-center">
+       <p data-template-id="gig-5-date" class="canva-text font-semibold text-2xl leading-tight" style="color: rgb(245, 197, 66); font-weight: 700; font-style: normal; font-size: 28px;">28</p>
+       <p data-template-id="gig-5-month" class="canva-text text-sm uppercase tracking-wide" style="color: rgb(245, 197, 66); font-weight: 400; font-style: normal; font-size: 12px;">AUG</p>
+      </div>
+      <div class="flex-1">
+       <p data-template-id="gig-5-venue" class="canva-text font-semibold" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">Bluffside</p>
+       <p data-template-id="gig-5-detail" class="canva-text text-sm" style="color: rgb(163, 163, 163); font-weight: 400; font-style: normal; font-size: 16px;">Boise, ID · All Ages</p>
+      </div>
+     </div>
+     <div data-template-id="gig-5" class="canva-card flex items-center gap-4 p-5 rounded-xl" style="background: rgb(38, 38, 38);">
+      <div class="shrink-0 w-16 text-center">
+       <p data-template-id="gig-5-date" class="canva-text font-semibold text-2xl leading-tight" style="color: rgb(245, 197, 66); font-weight: 700; font-style: normal; font-size: 28px;">25</p>
+       <p data-template-id="gig-5-month" class="canva-text text-sm uppercase tracking-wide" style="color: rgb(245, 197, 66); font-weight: 400; font-style: normal; font-size: 12px;">SEP</p>
+      </div>
+      <div class="flex-1">
+       <p data-template-id="gig-5-venue" class="canva-text font-semibold" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 16px;">Bluffside</p>
+       <p data-template-id="gig-5-detail" class="canva-text text-sm" style="color: rgb(163, 163, 163); font-weight: 400; font-style: normal; font-size: 16px;">Boise, ID · All Ages</p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section data-template-id="booking-section" class="canva-section py-12 px-6 md:px-12 text-center" style="background: rgb(17, 17, 17);">
+    <h2 data-template-id="booking-heading" class="canva-text mb-3" style="color: rgb(245, 197, 66); font-weight: 700; font-style: normal; font-size: 24px;">Book Us</h2>
+    <p data-template-id="booking-text" class="canva-text max-w-xl mx-auto" style="color: rgb(212, 212, 212); font-weight: 400; font-style: normal; font-size: 16px;">Available for private parties, events &amp; public venues. We bring the hits — you bring the crowd.</p>
+    <p data-template-id="booking-email" class="canva-text mt-4 font-semibold text-lg" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">book@sidebandidaho.com</p>
+   </section>
+  </main>
+  <script src="/_sdk/editing_sdk.js"></script>
+  <script>lucide.createIcons();</script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a12216c7422438e9',t:'MTc4MjUzODUzMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+</body></html>
